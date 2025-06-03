@@ -1,7 +1,7 @@
-import ejemplo from "./ejemplo.route.js";
+import juego from "./juego.route.js";
 import { Router } from "express";
 const indexRoutes = Router();
 
-indexRoutes.use('/ejemplo', ejemplo);
+indexRoutes.use('/juego', juego);
 
 export default indexRoutes;
